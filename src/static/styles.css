@@ -28,6 +28,14 @@ header h1 {
   margin-bottom: 10px;
 }
 
+.auth-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -190,6 +198,12 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+#login-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 footer {
